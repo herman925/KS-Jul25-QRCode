@@ -8,11 +8,14 @@ This folder contains all the assets for the KeySteps QR Code Portal website.
 - `keysteps-logo.png` - Main KeySteps logo for the header
 
 ### QR Code Images:
-- `24-25 Teacher Survey.png` - QR code for 24/25 teacher survey
-- `2526AssessmentBooking.png` - QR code for 25/26 assessment booking
-- `Project.png` - QR code for 家校協作發展策略
-- `Teacher Happiness.png` - QR code for 教師幸福學堂
-- `Self-Regulation.png` - QR code for 幼兒自我調節
+- `PretestHomeschool.png` - QR code for 家校協作發展策略 前測問卷
+- `PosttestHomeschool.png` - QR code for 家校協作發展策略 後測問卷
+- `WellBeingPreTest.png` - QR code for 教師幸福學堂 前測問卷
+- `WellBeingPostTest.png` - QR code for 教師幸福學堂 後測問卷
+- `PretestSelfReg.png` - QR code for 幼兒自我調節 前測問卷
+- `PosttestSelfReg.png` - QR code for 幼兒自我調節 後測問卷
+- `PreTestFreePlay.png` - QR code for 自由遊戲課程 前測問卷
+- `PostTestFreePlay.png` - QR code for 自由遊戲課程 後測問卷
 - `2526Intervention.png` - QR code for 25/26 course registration
 
 ## Image Specifications:

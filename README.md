@@ -31,15 +31,15 @@ QR Code Site/
 
 ## QR Code Sections
 
-### 1. 24/25 學年度問卷
-- Teacher survey for the previous academic year
+### 1. 24/25 課程問卷
+- Course surveys for 家校協作發展策略, 教師幸福學堂, and 幼兒自我調節
 
-### 2. 25/26 學年度入校安排  
-- School visit booking system
-- K3 student list notification
+### 2. 25/26 課程問卷
+- 自由遊戲課程 pre-test and post-test questionnaires
 
 ### 3. 「師校童行」培訓計劃
 - **24/25 課程問卷**: Course surveys for three training modules
+- **25/26 課程問卷**: 自由遊戲課程 pre-test and post-test questionnaires
 - **25/26 課程報名**: New course registration
 
 ## Color Scheme
