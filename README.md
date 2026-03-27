@@ -46,6 +46,9 @@ QR Code Site/
   - 前測：`assets/PreTestFreePlay.png` → https://qr.link/NPdxIo
   - 後測：尚未提供
 
+#### 學年總結學校問卷
+- 圖像：`assets/FinalYearSurvey.png`
+
 > 所有課程問卷均顯示提醒：「參與證書只提供給完成課程問卷，並填寫中文全名的老師」。首頁已移除 24/25 學年度問卷與 25/26 學年度入校安排的獨立區塊。
 
 ## Color Scheme
@@ -104,6 +107,7 @@ Built with vanilla HTML5, CSS3, and JavaScript ES6+. No external dependencies or
 - `WellBeingPreTest.png` / `WellBeingPostTest.png` — 教師幸福學堂 QR codes
 - `PretestSelfReg.png` / `PosttestSelfReg.png` — 幼兒自我調節 QR codes
 - `PreTestFreePlay.png` — 自由遊戲課程 前測 QR code（新增，25/26 課程問卷）
+- `FinalYearSurvey.png` — 學年總結學校問卷圖像
 - `24-25 Teacher Survey.png`, `2526AssessmentBooking.png`, `2526Intervention.png` — 歷史資源，保留以備未來需要
 
 ## License
