@@ -218,6 +218,8 @@ body {
 /* QR Items */
 .qr-item {
     display: flex;
+    flex-direction: column; /* Changed to column for top-bottom layout */
+    text-align: center; /* Center content */
     align-items: center;
     margin-bottom: 20px;
     padding: 20px;
@@ -249,14 +251,17 @@ body {
 
 .qr-pair {
     display: flex;
+    flex-direction: row; /* Default to side-by-side on larger screens */
     justify-content: space-around;
     gap: 20px;
+    align-items: flex-start; /* Align items to the top */
 }
 
 .qr-pair .qr-item {
     flex-direction: column;
     text-align: center;
-    width: 48%;
+    flex: 1; /* Allow items to grow and fill space */
+    min-width: 0; /* Prevent overflow on flex items */
     padding: 15px;
 }
 
@@ -271,9 +276,10 @@ body {
 }
 
 .qr-code {
-    width: 120px;
-    height: 120px;
-    margin-right: 20px;
+    max-width: 240px; /* Set a max-width for large screens */
+    width: 100%;      /* Make it responsive within its container */
+    height: auto;     /* Maintain aspect ratio */
+    margin: 0 0 15px 0; /* Adjusted margin for column layout */
     border-radius: 8px;
     flex-shrink: 0;
 }
@@ -331,7 +337,7 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
     .fixed-header {
-        height: 50px;
+        height: 100px; /* Adjusted for mobile */
     }
     
     .header-content {
@@ -339,11 +345,11 @@ body {
     }
     
     .logo-container {
-        height: 35px;
+        height: 60px; /* Adjusted for mobile */
     }
     
     .hero-section {
-        padding: 70px 15px 15px;
+        padding: 120px 15px 15px; /* Adjusted for new header */
     }
     
     .hero-title {
@@ -355,7 +361,7 @@ body {
     }
     
     .main-content {
-        padding-top: 70px;
+        padding-top: 120px; /* Adjusted for new header */
     }
     
     .container {
@@ -366,21 +372,12 @@ body {
         font-size: 2rem;
     }
     
-    .qr-item {
-        flex-direction: column;
-        text-align: center;
-    }
-    
     .qr-pair {
-        flex-direction: column;
-    }
-
-    .qr-pair .qr-item {
-        width: 100%;
+        flex-direction: column; /* Stack pairs vertically on smaller screens */
     }
 
     .qr-code {
-        margin: 0 0 15px 0;
+        max-width: 200px; /* Adjusted for tablet */
     }
     
     .section-header {
@@ -398,7 +395,7 @@ body {
 
 @media (max-width: 480px) {
     .hero-title {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     
     .cta-button {
@@ -407,12 +404,11 @@ body {
     }
     
     .main-title {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     
     .qr-code {
-        width: 100px;
-        height: 100px;
+        max-width: 180px; /* Adjusted for small screens */
     }
 }
 
