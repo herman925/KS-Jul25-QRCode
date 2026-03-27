@@ -65,12 +65,20 @@ function toggleSection(sectionId) {
 function initializeSections() {
     const sections = document.querySelectorAll('.section-content');
     sections.forEach(section => {
-        section.classList.remove('active');
-    });
-    
-    const headers = document.querySelectorAll('.section-header');
-    headers.forEach(header => {
-        header.classList.remove('active');
+        const header = section.previousElementSibling;
+        if (section.classList.contains('default-open')) {
+            section.classList.add('active');
+            if (header) {
+                header.classList.add('active');
+                header.setAttribute('aria-expanded', 'true');
+            }
+        } else {
+            section.classList.remove('active');
+            if (header) {
+                header.classList.remove('active');
+                header.setAttribute('aria-expanded', 'false');
+            }
+        }
     });
 }
 
